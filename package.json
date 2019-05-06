@@ -1,0 +1,17 @@
+{
+  "name": "Portal-SomosBelcorp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --grep @BusquedaProducto --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "H0h4mmed Estrada",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.0.4",
+    "mochawesome": "^3.1.1",
+    "puppeteer": "^1.11.0"
+  }
+}
